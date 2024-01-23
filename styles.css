@@ -111,6 +111,7 @@ footer a {
     align-items: center;
     z-index: 100;
     font-size: 15px;
+    background-color: #ff6f74;
   }
 
   .logo {
@@ -137,12 +138,13 @@ footer a {
   }
 
   .parallax {
-    margin-top: 50vh;
+    margin-top: 150px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60dvh;
+    height: 50vh;
+    overflow-x: none;
   }
 
   .parallax img {
@@ -155,9 +157,9 @@ footer a {
   }
 
   .sec {
-    position: relative;
     background: #eb95b9;
-    padding: 100px;
+    padding: 50px;
+    margin-top: 0;
   }
 
   .sec h2 {
