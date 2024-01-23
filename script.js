@@ -11,7 +11,7 @@ let darkleafright = document.getElementById("dark-leaf-right");
 
 window.addEventListener("scroll", () => {
   let value = window.scrollY;
-  text.style.marginTop = value * 2.5 + "px";
+  text.style.marginTop = value * 1.5 + "px";
   darkleafleft.style.left = value * -0.5 + "px";
   lightleafleft.style.left = value * -0.2 + "px";
   flowersleft.style.left = value * -0.4 + "px";
